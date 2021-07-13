@@ -79,3 +79,10 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 * ```models``` folder: contains the database models (MVC architecture).
 * ```routes``` folder: contains the API controllers (MVC architecture).
 * ```docker-compose.yml``` file: contains the project environment orquestation (Timescale DB, EMQX queue and Grafana dashboard).
+
+## References
+
+* Official MLX90640 Infrared Thermal Sensor Mbed driver - [https://github.com/melexis/mlx90640-library](https://github.com/melexis/mlx90640-library)
+* Mbed I2C protocol documentation - [https://os.mbed.com/docs/mbed-os/v6.9/apis/i2c.html](https://os.mbed.com/docs/mbed-os/v6.9/apis/i2c.html)
+* Getting started with Bluetooth Low Energy development with the nRF52840 DK - [https://6point6.co.uk/insights/getting-started-with-bluetooth-le-development/](https://6point6.co.uk/insights/getting-started-with-bluetooth-le-development/)
+* Install Mbed OS on nRF52840 DK board - [https://armmbed.github.io/DAPLink/?board=Nordic-nRF52-DK](https://armmbed.github.io/DAPLink/?board=Nordic-nRF52-DK)
