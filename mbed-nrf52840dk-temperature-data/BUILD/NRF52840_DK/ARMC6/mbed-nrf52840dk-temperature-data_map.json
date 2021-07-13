@@ -1,0 +1,175 @@
+[
+    {
+        "module": "MLX90640_API.o",
+        "size": {
+            ".text": 4758,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 4758,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "MLX90640_I2C_Driver.o",
+        "size": {
+            ".text": 378,
+            ".data": 0,
+            ".bss": 126,
+            ".text-delta": 378,
+            ".data-delta": 0,
+            ".bss-delta": 126
+        }
+    },
+    {
+        "module": "[lib]\\c_w.l",
+        "size": {
+            ".text": 11147,
+            ".data": 16,
+            ".bss": 348,
+            ".text-delta": 11147,
+            ".data-delta": 16,
+            ".bss-delta": 348
+        }
+    },
+    {
+        "module": "[lib]\\fz_wm.l",
+        "size": {
+            ".text": 3414,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 3414,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]\\libcppabi_w.l",
+        "size": {
+            ".text": 44,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 44,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]\\m_wm.l",
+        "size": {
+            ".text": 6016,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 6016,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "anon$$obj.o",
+        "size": {
+            ".text": 32,
+            ".data": 0,
+            ".bss": 2304,
+            ".text-delta": 32,
+            ".data-delta": 0,
+            ".bss-delta": 2304
+        }
+    },
+    {
+        "module": "main.o",
+        "size": {
+            ".text": 968,
+            ".data": 0,
+            ".bss": 14245,
+            ".text-delta": 968,
+            ".data-delta": 0,
+            ".bss-delta": 14245
+        }
+    },
+    {
+        "module": "mbed-os\\components",
+        "size": {
+            ".text": 325,
+            ".data": 0,
+            ".bss": 4,
+            ".text-delta": 325,
+            ".data-delta": 0,
+            ".bss-delta": 4
+        }
+    },
+    {
+        "module": "mbed-os\\drivers",
+        "size": {
+            ".text": 2624,
+            ".data": 0,
+            ".bss": 44,
+            ".text-delta": 2624,
+            ".data-delta": 0,
+            ".bss-delta": 44
+        }
+    },
+    {
+        "module": "mbed-os\\features",
+        "size": {
+            ".text": 499,
+            ".data": 1,
+            ".bss": 71,
+            ".text-delta": 499,
+            ".data-delta": 1,
+            ".bss-delta": 71
+        }
+    },
+    {
+        "module": "mbed-os\\hal",
+        "size": {
+            ".text": 1956,
+            ".data": 8,
+            ".bss": 129,
+            ".text-delta": 1956,
+            ".data-delta": 8,
+            ".bss-delta": 129
+        }
+    },
+    {
+        "module": "mbed-os\\platform",
+        "size": {
+            ".text": 8690,
+            ".data": 64,
+            ".bss": 313,
+            ".text-delta": 8690,
+            ".data-delta": 64,
+            ".bss-delta": 313
+        }
+    },
+    {
+        "module": "mbed-os\\rtos",
+        "size": {
+            ".text": 10451,
+            ".data": 168,
+            ".bss": 6625,
+            ".text-delta": 10451,
+            ".data-delta": 168,
+            ".bss-delta": 6625
+        }
+    },
+    {
+        "module": "mbed-os\\targets",
+        "size": {
+            ".text": 17053,
+            ".data": 62,
+            ".bss": 1427,
+            ".text-delta": 17053,
+            ".data-delta": 62,
+            ".bss-delta": 1427
+        }
+    },
+    {
+        "summary": {
+            "static_ram": 25955,
+            "static_ram_delta": 25955,
+            "total_flash": 68674,
+            "total_flash_delta": 68674
+        }
+    }
+]
