@@ -68,6 +68,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
     ```python publisher.py```
 
 6. Go to the Grafana Dashboard at [http://localhost:4000](http://localhost:4000) 
+7. Login with default credentials admin:admin
 
 ## Project Files Description
 
