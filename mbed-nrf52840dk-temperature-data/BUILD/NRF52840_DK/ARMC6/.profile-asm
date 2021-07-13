@@ -1,0 +1,26 @@
+{
+    "flags": [
+        "--cpu=Cortex-M4",
+        "--ide=mbed"
+    ],
+    "macros": [],
+    "symbols": [
+        "ARM_MATH_CM4",
+        "BOARD_PCA10056",
+        "CMSIS_VECTAB_VIRTUAL",
+        "CMSIS_VECTAB_VIRTUAL_HEADER_FILE=\"cmsis_nvic.h\"",
+        "CONFIG_GPIO_AS_PINRESET",
+        "MBEDTLS_CONFIG_HW_SUPPORT",
+        "MBED_MPU_CUSTOM",
+        "MBED_TICKLESS",
+        "NRF52840_XXAA",
+        "NRF52_PAN_20",
+        "SWI_DISABLE0",
+        "TARGET_NRF52840",
+        "WSF_MAX_HANDLERS=10",
+        "__CMSIS_RTOS",
+        "__CORTEX_M4",
+        "__FPU_PRESENT=1",
+        "__MBED_CMSIS_RTOS_CM"
+    ]
+}

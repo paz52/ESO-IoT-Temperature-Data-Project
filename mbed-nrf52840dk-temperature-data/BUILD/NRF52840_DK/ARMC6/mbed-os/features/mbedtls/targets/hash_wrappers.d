@@ -1,0 +1,20 @@
+BUILD\NRF52840_DK\ARMC6\mbed-os\features\mbedtls\targets\hash_wrappers.o: \
+  mbed-os\features\mbedtls\targets\hash_wrappers.c \
+  BUILD\NRF52840_DK\ARMC6\mbed_config.h \
+  mbed-os\features\mbedtls\inc\mbedtls\md2.h \
+  mbed-os\features\mbedtls\inc\mbedtls\config.h \
+  mbed-os\features\mbedtls\platform\inc\platform_mbed.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\mbedtls_device.h \
+  mbed-os\features\mbedtls\inc\mbedtls\check_config.h \
+  mbed-os\features\mbedtls\inc\mbedtls\md4.h \
+  mbed-os\features\mbedtls\inc\mbedtls\md5.h \
+  mbed-os\features\mbedtls\inc\mbedtls\sha1.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\sha1_alt.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\include\crys_hash.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\include\ssi_pal_types.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\include\ssi_pal_types_plat.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\include\crys_error.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\include\crys_hash_defs.h \
+  mbed-os\features\mbedtls\inc\mbedtls\sha256.h \
+  mbed-os\features\cryptocell\FEATURE_CRYPTOCELL310\sha256_alt.h \
+  mbed-os\features\mbedtls\inc\mbedtls\sha512.h

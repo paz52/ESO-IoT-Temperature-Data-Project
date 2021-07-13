@@ -1,0 +1,26 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "mapa",
+    "password": "password",
+    "database": "core"
+  },
+  "test": {
+    "dialect": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "mapa",
+    "password": "password",
+    "database": "core"
+  },
+  "production": {
+    "dialect": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "mapa",
+    "password": "password",
+    "database": "core"
+  }
+}

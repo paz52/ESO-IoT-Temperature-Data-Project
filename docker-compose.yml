@@ -1,0 +1,43 @@
+version: "3.9"
+   
+services:
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "4000:3000"
+    volumes:
+      - ./grafana-storage:/var/lib/grafana
+    networks:
+      - postgres
+
+  timescale:
+  #   Use the Docker Image postgres. This will pull the newest release.
+      image: "timescale/timescaledb:2.0.0-pg12"
+  #       Give the container the name my_postgres. You can changes to something else.
+      container_name: "timescaledb"
+  #   Setup the username, password, and database name. You can changes these values.
+      environment:
+          - POSTGRES_USER=mapa
+          - POSTGRES_PASSWORD=password
+          - POSTGRES_DB=core
+      ports:
+          - "5432:5432"
+      #   Set a volume some that database is not lost after shutting down the container.
+      #   I used the name postgres-data but you can changed it to something else.
+      volumes:
+          - ./postgres-data:/var/lib/postgresql/data
+      networks:
+          - postgres
+  emqx:
+    image: emqx/emqx:latest
+    environment:
+      - "EMQX_LISTENER__TCP__EXTERNAL=1883"
+    ports:
+      - "18083:18083"
+      - "1883:1883"
+    networks:
+      - postgres
+      
+networks:
+  postgres:
+    driver: bridge
