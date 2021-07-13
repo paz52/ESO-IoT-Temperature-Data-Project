@@ -1,6 +1,10 @@
-# :mortar_board: MOSS Client for the Programming Course of the UTFSM
+# ESO Internship Project: Thermographic camera for telescope maintenance
 
-**MOSS-UTFSM** is a tool that aims to support teachers and assistants of the Universidad Técnica Federico Santa María in the detection of plagiarism in homework, using [Standford's MOSS System](https://theory.stanford.edu/~aiken/moss/ "Standford's Plagiarism Detection") for Measure Of Software Similarity and the [Amazon S3 Service](https://aws.amazon.com/s3/) for plagiarism reports storage.
+This project is established in the context of the Summer Students Chile 2021 internship program of the European Southern Observatory (ESO). The project's objective is to get practice and be familiar with the IoT technology using a small thermal camera to be deployed in the field in our telescopes for maintenance purposes.
+
+This project was developed using the [Infrared Thermal Sensor MLX90640](https://www.mouser.cl/new/melexis/melexis-mlx90640-fir-sensor/) and the [single board development kit nRF52840 DK](https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk).
+
+For more details, see the attached presentation.
 
 ## :mag_right: Requirements
 
