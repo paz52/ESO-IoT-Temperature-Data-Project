@@ -28,7 +28,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
     
     ```cd ESO-IoT-Temperature-Data-Project```
     
-2. Setup Docker Environment
+2. Set up Docker Environment
 
    ```docker compose up```
 
@@ -54,7 +54,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 
 ## Usage
 
-1. Setup API server
+1. Set up API server
 
     ```npm start```
    
@@ -75,7 +75,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 * ```config``` folder: contains the configuration to connect to the database.
 * ```grafana-storage``` folder: contains the Grafana Dashboard database for the Docker volume.
 * ```mbed-nrf52840dk-temperature-data``` folder: contains the Mbed Studio workspace with the nRF52840 DK board program.
-* ```migrations``` folder: contains the migrations files to setup the database.
+* ```migrations``` folder: contains the migrations files to set up the database.
 * ```models``` folder: contains the database models (MVC architecture).
 * ```routes``` folder: contains the API controllers (MVC architecture).
 * ```docker-compose.yml``` file: contains the project environment orquestation (Timescale DB, EMQX queue and Grafana dashboard).
