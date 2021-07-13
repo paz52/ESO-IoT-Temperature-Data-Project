@@ -34,11 +34,11 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 
 3. Install Node dependences
 
-    ```npm install --save-dev sequelize-cli```
+    ```npm install```
     
 4. Install Sequelize
 
-    ```npm install```
+    ```npm install --save-dev sequelize-cli```
 
 5. Execute migrations
 
