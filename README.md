@@ -6,6 +6,12 @@ This project was developed using the [MLX90640 Infrared Thermal Sensor](https://
 
 For more details, see the attached [presentation](FinalPresentation.pdf).
 
+## Project Overview Diagram
+
+![ProjectArchitecture](https://user-images.githubusercontent.com/54490571/125495993-066b5d8c-f539-4d3e-af63-af800d6cb76f.png)
+
+
+
 ## Requirements
 
 * [Node.js LTS](https://nodejs.org/en/)
@@ -52,7 +58,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 
     ```npm start```
    
-2. Start Mbed Studio and open the workspace located at ```mbed-nrf52840dk-temperature-data``` folder
+2. Start Mbed Studio and open the workspace located in ```mbed-nrf52840dk-temperature-data``` folder
 3. Connect the nRF52840 DK board and open the ```main.cpp``` file in the Mbed Studio editor
 4. Click the run button (play icon) to run the program on the nRF52840 DK board
 5. Navigate to ```broker``` folder and run the subscriber and publisher
@@ -62,3 +68,14 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
     ```python publisher.py```
 
 6. Go to the Grafana Dashboard at [http://localhost:4000](http://localhost:4000) 
+
+## Project Files Description
+
+* ```broker``` folder: contains the subscriber and publisher programs for the EMQX queue.
+* ```config``` folder: contains the configuration to connect to the database.
+* ```grafana-storage``` folder: contains the Grafana Dashboard database for the Docker volume.
+* ```mbed-nrf52840dk-temperature-data``` folder: contains the Mbed Studio workspace with the nRF52840 DK board program.
+* ```migrations``` folder: contains the migrations files to set up the database.
+* ```models``` folder: contains the database models (MVC architecture).
+* ```routes``` folder: contains the API controllers (MVC architecture).
+* ```docker-compose.yml``` file: contains the project environment orquestation (Timescale DB, EMQX queue and Grafana dashboard).
