@@ -30,7 +30,8 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
     
 2. Download the [mbed-os repository](https://github.com/ARMmbed/mbed-os) as a ZIP. 
 
-3. Unzip the downloaded file, and move all the content to the mbed-os folder located at ```\ESO-IoT-Temperature-Data-Project\mbed-nrf52840dk-temperature-data\mbed-os```.
+3. Unzip the downloaded file, and move all the content to the mbed-os folder located at 
+    ```\ESO-IoT-Temperature-Data-Project\mbed-nrf52840dk-temperature-data\mbed-os```
     
 4. Set up Docker Environment
 
