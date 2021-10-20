@@ -24,7 +24,7 @@ For more details, see the attached [presentation](FinalPresentation.pdf).
 
 1. Clone this repository and navigate into it
 
-    ```git clone https://github.com/paz52/ESO-IoT-Temperature-Data-Project```
+    ```git clone https://github.com/paz52/ESO-IoT-Temperature-Data-Project --recurse-submodules```
     
     ```cd ESO-IoT-Temperature-Data-Project```
     
